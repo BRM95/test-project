@@ -2,12 +2,12 @@ public class TP {
     
 	
 	
-    private String title;/**
-                           @wi.implements TP-70 Purpose 
-                         **/
+    private String title;
     private String author;
     private String publisher;
-    private int publicationYear;
+    private int publicationYear;/**
+                                  @wi.implements TP-4 A more detailed functional requirement 
+                                **/
 
     /**
      * Creates a new book.

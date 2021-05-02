@@ -1,13 +1,13 @@
 public class TP {
     
 	
-	
+	/**
+	  @wi.implements TP-4 A more detailed functional requirement 
+	**/
     private String title;
     private String author;
     private String publisher;
-    private int publicationYear;/**
-                                  @wi.implements TP-4 A more detailed functional requirement 
-                                **/
+    private int publicationYear;
 
     /**
      * Creates a new book.

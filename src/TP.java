@@ -2,7 +2,7 @@ public class TP {
     
 	
 	/**
-	  @wi.implements TP-4 A more detailed functional requirement 
+	  @wi.implements TestProject/TP-4:100 more detailed functional requirement implemented
 	**/
     private String title;
     private String author;

@@ -1,9 +1,10 @@
 public class TP {
     
 	
-	/**
-	  @wi.implements TestProject/TP-4:100 more detailed functional requirement implemented
-	**/
+    /** 
+     * Returns title of this book. 
+     * @wi.implements TP-4 
+     */  
     private String title;
     private String author;
     private String publisher;

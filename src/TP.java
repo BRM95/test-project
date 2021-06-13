@@ -24,7 +24,11 @@ public class TP {
         this.publisher = publisher;
         this.publicationYear = publicationYear;
     }
-
+    
+    /**
+    @wi.implements  TP-1 Some functional requirement representing a system requirement. Itemize the detai... 
+    **/
+    
     public String getTitle() {
         return this.title;
     }

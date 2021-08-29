@@ -1,12 +1,11 @@
 g = 9.81; % @wi.implements TP-79 A test requirement for matlab implemented here again
-l = g/9; %{
-         @wi.implements  TP-80 A test requirement for matlab block comments 
-         %}
+l = g/9;
 m = 1/l^2;
 A = [0,1;9,0];
 B = [0;-9/g];
-C = [1,0];
-
+C = [1,0]; %{
+           @wi.implements  TP-80 A test requirement for matlab block comments 
+           %}
 V = 1e-5*eye(2);
 W = 1e-6;
 

@@ -1,9 +1,7 @@
-%{
-@wi.implements  TP-80 A test requirement for matlab block comments 
-%}
-
 g = 9.81; % @wi.implements TP-79 A test requirement for matlab implemented here again
-l = g/9;
+l = g/9; %{
+         @wi.implements  TP-80 A test requirement for matlab block comments 
+         %}
 m = 1/l^2;
 A = [0,1;9,0];
 B = [0;-9/g];

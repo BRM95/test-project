@@ -15,4 +15,6 @@ L_pole = [40;409];
 [~,L_kalman,~] = kalman(ss(A,[B,eye(2)],C,[0,0,0]),V,W);
 
 x0 = [0.1;0];
-xh0 = [0;0];
+xh0 = [0;0]; %{
+             	@wi.implements  TP-81 Another block comment test requirement 
+             }%

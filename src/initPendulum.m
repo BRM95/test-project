@@ -12,9 +12,9 @@ W = 1e-6;
 K_pole = [-109*g/9,-20*g/9];
 K_lqr = lqr(A,B,eye(2),1);
 L_pole = [40;409];
-[~,L_kalman,~] = kalman(ss(A,[B,eye(2)],C,[0,0,0]),V,W);
+[~,L_kalman,~] = kalman(ss(A,[B,eye(2)],C,[0,0,0]),V,W); %{
+             												@wi.implements  TP-81 Another block comment test requirement 
+             											 }%
 
 x0 = [0.1;0];
-xh0 = [0;0]; %{
-             	@wi.implements  TP-81 Another block comment test requirement 
-             }%
+xh0 = [0;0];

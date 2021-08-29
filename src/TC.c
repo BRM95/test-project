@@ -6,10 +6,10 @@ int main() {
     printf("Enter divisor: ");
     scanf("%d", &divisor);
 
-    // Computes quotient
+	// @wi.implements TP-83 Second C comment reference 
+	
     quotient = dividend / divisor;
 
-    // Computes remainder
     remainder = dividend % divisor;
 
     printf("Quotient = %d\n", quotient);

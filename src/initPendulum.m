@@ -1,5 +1,5 @@
-%{
-@wi.implements TP-79 A test requirement for matlab implemented here again
+{%
+@wi.implements  TP-80 A test requirement for matlab block comments 
 %}
 
 g = 9.81; % @wi.implements TP-79 A test requirement for matlab implemented here again

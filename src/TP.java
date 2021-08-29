@@ -30,7 +30,9 @@ public class TP {
     **/
     
     public String getTitle() {
-        return this.title;
+        return this.title; /**
+                            * @wi.implements TP-85 Java test 
+                           **/
     }
     
     

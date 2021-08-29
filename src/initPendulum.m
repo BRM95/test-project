@@ -1,4 +1,4 @@
-{%
+%{
 @wi.implements  TP-80 A test requirement for matlab block comments 
 %}
 

@@ -1,4 +1,3 @@
-
 function Zi = qinterp2(X,Y,Z,xi,yi,methodflag)
 %QINTERP2 2-dimensional fast interpolation
 % qinterp2 provides a speedup over interp2 in the same way that
@@ -15,7 +14,7 @@ function Zi = qinterp2(X,Y,Z,xi,yi,methodflag)
 %
 % Usage restrictions
 %   X(:,n) and Y(m,:) must be monotonically and evenly increasing
-%   e.g.,  [X,Y] = meshgrid(-5:5,0:0.025:1);
+%   e.g.,  [X,Y] = meshgrid(-5:5,0:0.025:1); 
 %
 % Examples:
 %   % Set up the library data for each example
@@ -70,7 +69,7 @@ end
 
 % Decide the interpolation method
 if nargin>=6
-    method = methodflag;
+    method = methodflag; % @wi.implements TP-87 Interp comment 2 single line 
 else
     method = 2; % Default to bilinear
 end

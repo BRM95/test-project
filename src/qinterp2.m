@@ -105,9 +105,9 @@ switch method
         fxi = floor(xi)+1;  fyi = floor(yi)+1;   % x_i and y_i
         dfxi = xi-fxi+1;    dfyi = yi-fyi+1;     % Location in unit square
         
-        ind1 = fyi + librarySize(1)*(fxi-1);     % Indices of (  x_i  ,  y_i  );	%{
-                                                         					   		@wi.implements TP-86 Interpolation case 1
-                                                                               		%}
+        ind1 = fyi + librarySize(1)*(fxi-1);    %{
+                                             	@wi.implements TP-86 Interpolation case 1
+                                               	%}
         ind2 = fyi + librarySize(1)*fxi;         % Indices of ( x_i+1 ,  y_i  )
         ind3 = fyi + 1 + librarySize(1)*fxi;     % Indices of ( x_i+1 , y_i+1 )
         ind4 = fyi + 1 + librarySize(1)*(fxi-1); % Indices of (  x_i  , y_i+1 )

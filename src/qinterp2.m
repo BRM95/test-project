@@ -88,7 +88,8 @@ switch method
     % Nearest-neighbor method
     case 0
         % Find the nearest point in index space
-        rxi = round(xi)+1;  ryi = round(yi)+1;
+        rxi = round(xi)+1;  ryi = round(yi)+1; % @wi.implements  TP-89 4th requirement 
+                                               
         % Find points that are in X,Y range
         flag = rxi>0 & rxi<=librarySize(2) & ~isnan(rxi) &...
             ryi>0 & ryi<=librarySize(1) & ~isnan(ryi);

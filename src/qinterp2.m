@@ -1,3 +1,4 @@
+% wi.implements TP-90 Checking function call comment structure
 function Zi = qinterp2(X,Y,Z,xi,yi,methodflag)
 %QINTERP2 2-dimensional fast interpolation
 % qinterp2 provides a speedup over interp2 in the same way that

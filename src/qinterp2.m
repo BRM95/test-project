@@ -164,8 +164,9 @@ switch method
         ind3 = fyi + 1 + librarySize(1)*fxi;     % Indices of ( x_i+1 , y_i+1 )
         ind4 = fyi + 1 + librarySize(1)*(fxi-1); % Indices of (  x_i  , y_i+1 )
         
-        % Bilinear interpolation.  See
-        % http://en.wikipedia.org/wiki/Bilinear_interpolation
+		%{
+		@wi.implements  TP-92 Test item final 
+		%}
         Zi(flagIn) = Z(ind1).*(1-dfxi).*(1-dfyi) + ...
             Z(ind2).*dfxi.*(1-dfyi) + ...
             Z(ind4).*(1-dfxi).*dfyi + ...

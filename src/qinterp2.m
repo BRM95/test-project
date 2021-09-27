@@ -51,7 +51,7 @@ if size(xi)~=size(yi)
     error('%s and %s must be equal size',inputname(4),inputname(5));
 end
 
-% Library array error checking (size only)
+% @wi.implements TP-93 Another class example 
 if size(X)~=size(Y)
     error('%s and %s must have the same size',inputname(1),inputname(2));
 end

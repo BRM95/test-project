@@ -1,4 +1,3 @@
-% @wi.implements TP-91 Class example 
    classdef mydate
    % write a description of the class here.
 

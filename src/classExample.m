@@ -1,21 +1,15 @@
+% @wi.implements TP-91 Class example 
    classdef mydate
-   % write a description of the class here.
-
        properties
-       % define the properties of the class here, (like fields of a struct)
            minute = 0;
            hour;
            day;
            month;
            year;
        end
-
+	   % @wi.implements TP-93 Another class example
        methods
-       % methods, including the constructor are defined in this block
-
-		   % @wi.implements TP-93 Another class example
            function obj = mydate(minute,hour,day,month,year)
-           % class constructor
                if(nargin > 0)
                  obj.minute = minute;
                  obj.hour   = hour;

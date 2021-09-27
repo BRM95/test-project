@@ -14,7 +14,7 @@
        methods
        % methods, including the constructor are defined in this block
 
-		   %{@wi.implements TP-93 Another class example %}
+		   % @wi.implements TP-93 Another class example
            function obj = mydate(minute,hour,day,month,year)
            % class constructor
                if(nargin > 0)

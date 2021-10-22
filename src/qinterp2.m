@@ -51,7 +51,7 @@ if size(xi)~=size(yi)
     error('%s and %s must be equal size',inputname(4),inputname(5));
 end
 
-% Library array error checking (size only)
+% @wi.implements TP-93 Another class example 
 if size(X)~=size(Y)
     error('%s and %s must have the same size',inputname(1),inputname(2));
 end
@@ -158,14 +158,13 @@ switch method
         fxi = fxi(flagIn); fyi = fyi(flagIn);
         dfxi = dfxi(flagIn); dfyi = dfyi(flagIn);
         
-        % Find bounding vertices
+        %{
+        @wi.implements  TP-92 Test item final 
+        %}
         ind1 = fyi + librarySize(1)*(fxi-1);     % Indices of (  x_i  ,  y_i  )
         ind2 = fyi + librarySize(1)*fxi;         % Indices of ( x_i+1 ,  y_i  )
         ind3 = fyi + 1 + librarySize(1)*fxi;     % Indices of ( x_i+1 , y_i+1 )
         ind4 = fyi + 1 + librarySize(1)*(fxi-1); % Indices of (  x_i  , y_i+1 )
-        
-        % Bilinear interpolation.  See
-        % http://en.wikipedia.org/wiki/Bilinear_interpolation
         Zi(flagIn) = Z(ind1).*(1-dfxi).*(1-dfyi) + ...
             Z(ind2).*dfxi.*(1-dfyi) + ...
             Z(ind4).*(1-dfxi).*dfyi + ...

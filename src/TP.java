@@ -35,7 +35,9 @@ public class TP {
                            **/
     }
     
-    
+    /**
+    @wi.implements  TP-94 Get Author 
+    **/
     public String getAuthor() {
         return this.author;
     }

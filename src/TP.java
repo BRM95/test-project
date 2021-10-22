@@ -42,6 +42,10 @@ public class TP {
         return this.author;
     }
 
+    
+    /**
+      @wi.implements TP-73 Test Cases 
+    **/
     public String getPublisher() {
         return this.publisher;
     }

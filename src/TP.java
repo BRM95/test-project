@@ -43,9 +43,9 @@ public class TP {
     }
 
     
-    /**
-      @wi.implements TP-73 Test Cases 
-    **/
+	/**
+	@wi.implements TP-95 Get Publication Year 
+	**/
     public String getPublisher() {
         return this.publisher;
     }

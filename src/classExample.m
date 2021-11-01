@@ -1,9 +1,10 @@
 % @wi.implements TP-91 Class example 
    classdef mydate
        properties
-           minute
+           minute = 0;
        end
        methods
+       	   % @wi.implements TP-93 Another class example
            function obj = mydate(minute,hour,day,month,year)
                if(nargin > 0)
                  obj.minute = minute;

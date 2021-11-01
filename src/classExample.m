@@ -2,10 +2,10 @@
    classdef mydate
        properties
            minute = 0;
-           hour = 0;
-           day = 0;
-           month = 0;
-           year = 0;
+           hour
+           day
+           month
+           year
        end
        methods
        	   % @wi.implements TP-93 Another class example

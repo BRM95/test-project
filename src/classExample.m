@@ -19,7 +19,7 @@
                  obj.year   = year;
                end
            end
-       	   % @wi.implements TP-97 Second Method Link
+       	   % @wi.implements TP-98 Second Method Link
            function obj = rollDay(obj,numdays)
 
                obj.day = obj.day + numdays;

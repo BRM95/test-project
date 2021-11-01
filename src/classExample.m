@@ -1,11 +1,11 @@
 % @wi.implements TP-91 Class example 
    classdef mydate
        properties
-           minute,
-           hour,
-           day,
-           month,
-           year,
+           minute;
+           hour;
+           day;
+           month;
+           year;
        end
        methods
        	   % @wi.implements TP-93 Another class example

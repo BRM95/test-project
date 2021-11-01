@@ -1,7 +1,7 @@
 % @wi.implements TP-91 Class example 
    classdef mydate
        properties
-           minute = 0,
+           minute,
            hour,
            day,
            month,

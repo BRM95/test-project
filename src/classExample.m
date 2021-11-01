@@ -7,7 +7,6 @@
            month;
            year;
        end
-	   % @wi.implements TP-93 Another class example
        methods
            function obj = mydate(minute,hour,day,month,year)
                if(nargin > 0)

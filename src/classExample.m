@@ -1,7 +1,7 @@
 % @wi.implements TP-91 Class example 
    classdef mydate
        properties
-           minute;
+           minute
        end
        methods
            function obj = mydate(minute,hour,day,month,year)

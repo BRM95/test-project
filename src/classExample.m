@@ -1,4 +1,4 @@
-   %{@wi.implements TestProject/TP-515 LTF-UL 1 Anwendbarkeit  
+   % @wi.implements TestProject/TP-515 LTF-UL 1 Anwendbarkeit  
    classdef mydate
        properties
        	   %{@wi.implements TP-96 Properties link %}
@@ -9,7 +9,7 @@
            year;
        end
        methods
-       	   %{@wi.implements TestProject/TP-514 cert regulation import test 
+       	   % @wi.implements TestProject/TP-514 cert regulation import test 
            function obj = mydate(minute,hour,day,month,year)
                if(nargin > 0)
                  obj.minute = minute;
@@ -19,7 +19,7 @@
                  obj.year   = year;
                end
            end
-       	   %{@wi.implements TestProject/TP-516 LTF-UL 1-1. 
+       	   % @wi.implements TestProject/TP-516 LTF-UL 1-1. 
            function obj = rollDay(obj,numdays)
 
                obj.day = obj.day + numdays;

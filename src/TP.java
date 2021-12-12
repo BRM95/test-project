@@ -35,7 +35,7 @@ public class TP {
                            **/
     }
     
-    
+    //@wi.implements TestProject/TP-45 : A placeholder comment
     public String getAuthor() {
         return this.author;
     }

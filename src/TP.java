@@ -35,11 +35,14 @@ public class TP {
                            **/
     }
     
-    //@wi.implements TestProject/TP-45 : A placeholder comment
     public String getAuthor() {
         return this.author;
     }
 
+    
+	/**
+	@wi.implements TP-95 Get Publication Year 
+	**/
     public String getPublisher() {
         return this.publisher;
     }

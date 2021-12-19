@@ -2,7 +2,7 @@ public class TP {
     
 	
     /** 
-     * Returns title of this book. 
+     * Returns title of this book. 1
      * @wi.implements TP-4 
      */  
     private String title;
